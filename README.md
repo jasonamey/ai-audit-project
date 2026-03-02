@@ -1,17 +1,26 @@
-# AI Audit Project: Signature Question RAG
+# AI Audit Project: Scholarly "Signature" Benchmarking
 
-This project is a specialized Retrieval-Augmented Generation (RAG) system designed to audit and collect answers from major chatbot APIs. Instead of standard "needle-in-a-haystack" queries, this system investigates the ability to synthesize **"Signature Questions"**—high-level, representative inquiries derived from the core scholarship contained within a specific corpus of academic PDFs.
+This project is an algorithmic auditing framework designed to evaluate how major LLM APIs represent core academic scholarship. Rather than testing simple fact retrieval, this system uses a "Signature Question" methodology to probe an AI's deep understanding of specific, complex corpora.
 
-## 🎯 Project Goals
-* **Automated Scholarship Synthesis:** Ingest complex academic papers (PDFs) and extract thematic "signature questions."
-* **Cross-API Auditing:** Use these synthesized questions to probe and compare the knowledge/alignment of major LLM APIs.
-* **Retrieval Evaluation:** Compare the performance of different embedding models (OpenAI vs. Hugging Face) in identifying core academic concepts.
+## Project Vision
 
-## 🏗️ Project Structure
+Most AI benchmarks focus on general knowledge. This project audits **Domain-Specific Alignment**:
+* **Signature Question Synthesis:** Distilling a corpus of academic PDFs into high-level questions that represent the "intellectual signature" of the source material.
+* **Model Auditing:** Systematically probing different LLM APIs (OpenAI, Anthropic) with these questions to identify gaps in synthesis, hallucinations, or misalignments with the source scholarship.
+* **Vector Bias Evaluation:** Investigating how different embedding strategies (OpenAI vs. Hugging Face) influence the model's ability to "see" core academic concepts during the retrieval phase.
+
+## The Methodology: "Signature Questions"
+
+The system identifies thematic anchors within academic papers. It then uses these anchors to generate questions to probe the major LLM APIs. 
+
+
+
+## Project Structure
+
 ```text
 ai-audit-project/
-├── docs/               # Source academic PDFs (Goldman Sachs, de Vries, etc.)
-├── config.py           # Configuration for ChromaDB and Embedding models
-├── core.py             # Logic for fitz (PyMuPDF) ingestion and vector search
-├── main.py             # Entry point for DB initialization and testing
-└── requirements.txt    # Project dependencies
+├── docs/               # Source academic PDFs (The "Audit Corpus")
+├── config.py           # Infrastructure config (ChromaDB, Embedding models)
+├── core.py             # Ingestion engine & Semantic search logic
+├── main.py             # Audit execution and benchmarking entry point
+└── test_models.py    # Testing
