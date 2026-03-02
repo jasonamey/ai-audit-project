@@ -1,0 +1,7 @@
+pymupdf
+sentence-transformers
+python-dotenv
+openai
+chromadb
+langchain-community 
+langchain-chroma

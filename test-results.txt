@@ -1,0 +1,80 @@
+OPEN_AI:
+--------------------
+
+❓ Question: What are the carbon emissions projections for AI servers?
+✅ Best match (score: 0.7348):
+   Chunk 1: projection models and regional frameworks, assuming deployment 
+mirrors current...
+
+   All scores:
+   Chunk 1: 0.7348
+   Chunk 2: 0.7314
+   Chunk 3: 0.7301
+   Chunk 4: 0.7274
+   Chunk 5: 0.7234
+
+❓ Question: How much water do AI data centers consume?
+✅ Best match (score: 0.7315):
+   Chunk 1: 800 billion L for 176 TWh of electricity consumption in 2023, aver-
+aging out to...
+
+   All scores:
+   Chunk 1: 0.7315
+   Chunk 2: 0.7103
+   Chunk 3: 0.7014
+   Chunk 4: 0.7009
+   Chunk 5: 0.6973
+
+❓ Question: Which US states are best for sustainable AI infrastructure?
+✅ Best match (score: 0.6405):
+   Chunk 1: Nature Sustainability | Volume 8 | December 2025 | 1541–1553
+1550
+Analysis
+https...
+
+   All scores:
+   Chunk 1: 0.6405
+   Chunk 2: 0.6371
+   Chunk 3: 0.6348
+   Chunk 4: 0.6228
+   Chunk 5: 0.6102
+
+HUGGING_FACE:
+--------------------
+
+❓ Question: What are the carbon emissions projections for AI servers?
+✅ Best match (score: 0.8161):
+   Chunk 1: carbon emissions. e, Assessment of the effect of ALC and SUO adoption on 
+energy...
+
+   All scores:
+   Chunk 1: 0.8161
+   Chunk 2: 0.7942
+   Chunk 3: 0.7795
+   Chunk 4: 0.7792
+   Chunk 5: 0.7778
+
+❓ Question: How much water do AI data centers consume?
+✅ Best match (score: 0.7473):
+   Chunk 1: mains a clear need for more granular disclosure.
+AI WATER FOOTPRINT
+The water fo...
+
+   All scores:
+   Chunk 1: 0.7473
+   Chunk 2: 0.7318
+   Chunk 3: 0.7300
+   Chunk 4: 0.7187
+   Chunk 5: 0.7158
+
+❓ Question: Which US states are best for sustainable AI infrastructure?
+✅ Best match (score: 0.6762):
+   Chunk 1: To project the potential risks and benefits behind future AI server 
+deployment,...
+
+   All scores:
+   Chunk 1: 0.6762
+   Chunk 2: 0.6025
+   Chunk 3: 0.5969
+   Chunk 4: 0.5860
+   Chunk 5: 0.5813
