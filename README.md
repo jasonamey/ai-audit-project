@@ -1,6 +1,6 @@
-# AI Audit Project: Scholarly "Signature" Benchmarking
+# AI Audit Project
 
-This project is an algorithmic auditing framework designed to evaluate how major LLM APIs represent core academic scholarship. Rather than testing simple fact retrieval, this system uses a "Signature Question" methodology to probe an AI's deep understanding of specific, complex corpora.
+This project is an auditing framework designed to evaluate how major LLM APIs represent core academic scholarship. Rather than testing simple fact retrieval, this system uses a "Signature Question" methodology to probe an AI's deep understanding of specific, complex corpora.
 
 ## Project Vision
 
